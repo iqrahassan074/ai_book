@@ -34,7 +34,7 @@ export const HomePage: React.FC = () => {
                 
                 {/* Robot Image */}
                 <img
-                  src="/public/robot.png"
+                  src="/robot.png"
                   alt="Humanoid Robot"
                   className="relative z-10  dark:border-gray-700 object-cover transform hover:scale-[1.02] transition-transform duration-500"
                 />
