@@ -8,7 +8,7 @@ export const Chatbot: React.FC = () => {
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const [messages, setMessages] = useState<ChatMessage[]>([
-    { role: 'model', text: "Hello! I'm your Humanoid AI guide. Ask me anything about robotics, ROS 2, or how to build your own droid!" }
+    { role: 'model', text: "Hello! I'm your Humanoid AI guide, here to help with whatever you need" }
   ]);
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
